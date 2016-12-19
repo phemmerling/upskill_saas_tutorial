@@ -38,6 +38,9 @@ end
 #Use Twitter bootstrap library for front end UI and layout
 gem 'bootstrap-sass', '3.3.7'
 
+#Use font awesome sass gem
+gem 'font-awesome-sass', '~> 4.6.2'
+
 group :production do
   # Use the PostgreSQL gem for Heroku production servers
   gem 'pg', '0.18.4'
