@@ -35,6 +35,9 @@ group :development, :test do
   gem 'byebug', platform: :mri
 end
 
+#Use Twitter bootstrap library for front end UI and layout
+gem 'bootstrap-sass', '3.3.7'
+
 group :production do
   # Use the PostgreSQL gem for Heroku production servers
   gem 'pg', '0.18.4'
